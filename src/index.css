@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-zinc-950 text-zinc-100 font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-cyan-400;
+  }
+  .markdown-body p {
+    @apply mb-2 last:mb-0;
+  }
+  .markdown-body ul {
+    @apply list-disc list-inside mb-2;
+  }
+  .markdown-body ol {
+    @apply list-decimal list-inside mb-2;
+  }
+  .markdown-body a {
+    @apply text-emerald-400 underline;
+  }
+  .markdown-body code {
+    @apply bg-zinc-900 px-1 rounded text-emerald-400 font-mono text-xs;
+  }
+}
