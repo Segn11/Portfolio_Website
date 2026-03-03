@@ -47,3 +47,6 @@ Serve the contents of `dist/` with any static hosting provider (Netlify, Vercel,
 - The downloadable CV bundles with the app from `src/PHOTO/CV (2).pdf` and is linked from the hero CTA.
 
 Feel free to fork, adapt, or build on this portfolio for your own personal brand.
+
+## deployement
+ live web app - https://portfolio-website-emv8ps5hs-segnis-projects-c47aed0b.vercel.app/
