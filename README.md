@@ -49,4 +49,5 @@ Serve the contents of `dist/` with any static hosting provider (Netlify, Vercel,
 Feel free to fork, adapt, or build on this portfolio for your own personal brand.
 
 ## deployement
- live web app - https://portfolio-website-one-xi-54.vercel.app/
+ live web app -  https://portfolio-segni.vercel.app/
+ 
