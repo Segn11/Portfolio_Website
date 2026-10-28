@@ -2,7 +2,7 @@
 
 A world-class, ultra-modern developer portfolio engineered for **Segni Nadew**, Full-Stack Software Engineer & Applied AI/Machine Learning Developer. Built with React 19, TypeScript, Tailwind CSS, Motion, and custom glassmorphism styling.
 
-🌐 **Live Deployment:** [portfolio-segni.vercel.app](https://portfolio-segni.vercel.app/)  
+🌐 **Live Deployment:** [portfolio-segni.vercel.app](https://segninadew.vercel.app/))  
 📫 **Direct Contact:** [segninadew1@gmail.com](mailto:segninadew1@gmail.com)  
 📍 **Location:** Addis Ababa, Ethiopia (Open to Remote Worldwide & Relocation)
 
