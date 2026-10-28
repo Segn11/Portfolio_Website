@@ -100,13 +100,15 @@ You can explore live demos and source code links directly in the **Projects** se
     if (p.includes('achievement') || p.includes('zindi') || p.includes('competition') || p.includes('rank') || p.includes('honor')) {
       return `### 🏆 Key Achievements & Milestones:
 - **Zindi Data Science Platform:** Achieved **Rank 51 out of 358** international participants in the AgriBORA Commodity Price Challenge.
-- **Production Delivery:** Successfully deployed multiple production web applications including the Luxury Hotel System and University ERP.
+- **Production Delivery:** Successfully deployed multiple production web applications including WeDonate Civic Portal and Super Star Hopper 3D.
 - **AI Research:** Developed indigenous character recognition models (CNNs) for Amharic / Ge'ez script digitization.`;
     }
 
-    if (p.includes('education') || p.includes('degree') || p.includes('university') || p.includes('school') || p.includes('background')) {
+    if (p.includes('education') || p.includes('degree') || p.includes('university') || p.includes('school') || p.includes('background') || p.includes('astu')) {
       return `### 🎓 Education & Background:
 - **Degree:** B.Sc. in Computer Science & Engineering
+- **University:** Adama Science and Technology University (ASTU)
+- **Period:** 2023 — 2027
 - **Focus:** Algorithms, Distributed Systems, Deep Learning, Database Design, and Software Engineering.
 - **Mindset:** Continuous learner passionate about bridging cutting-edge ML models with resilient web products.`;
     }
