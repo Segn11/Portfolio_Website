@@ -10,7 +10,8 @@ import {
   Sparkles, 
   Compass, 
   Layers,
-  Cpu
+  Cpu,
+  Calendar
 } from 'lucide-react';
 import { EDUCATION } from '../data/portfolioData';
 
@@ -82,7 +83,7 @@ export const About: React.FC = () => {
             
             <div className="space-y-4 text-zinc-300 text-base leading-relaxed">
               <p>
-                My passion for technology began with a deep curiosity for how distributed web systems scale and how predictive models can unlock insights from raw unstructured data. As a <strong className="text-white">Computer Science and Engineering</strong> scholar, I dedicated myself to mastering both core computer science theory and modern product delivery.
+                My passion for technology began with a deep curiosity for how distributed web systems scale and how predictive models can unlock insights from raw unstructured data. As a <strong className="text-white">Computer Science and Engineering</strong> scholar at <strong className="text-emerald-400">Adama Science and Technology University (ASTU)</strong> (2023–2027), I dedicated myself to mastering both core computer science theory and modern product delivery.
               </p>
               <p>
                 In the software realm, I have engineered end-to-end fullstack platforms—from <span className="text-emerald-300 font-medium">civic aid systems with 3-tier municipal verification (WeDonate)</span> to <span className="text-cyan-300 font-medium">high-performance 60 FPS 3D WebGL game engines (Super Star Hopper)</span>. In the AI sphere, I actively train and benchmark deep learning architectures, such as fine-tuning <span className="text-violet-300 font-medium">BERT for social media NLP</span> and crafting <span className="text-emerald-300 font-medium">CNNs for indigenous Amharic OCR</span>.
@@ -123,23 +124,34 @@ export const About: React.FC = () => {
                 key={edu.degree}
                 className="glass-card p-8 rounded-3xl border border-white/10 relative overflow-hidden"
               >
-                <div className="p-3 w-fit rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 mb-5">
-                  <GraduationCap size={28} />
+                <div className="flex items-center justify-between mb-5">
+                  <div className="p-3 w-fit rounded-2xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+                    <GraduationCap size={28} />
+                  </div>
+                  <span className="px-3 py-1 rounded-full text-xs font-mono font-medium bg-emerald-500/10 border border-emerald-500/20 text-emerald-400">
+                    {edu.period}
+                  </span>
                 </div>
-                <div className="text-xs font-mono text-emerald-400 uppercase tracking-wider mb-1">
+
+                <div className="text-xs font-mono text-emerald-400 uppercase tracking-wider mb-1.5">
                   Academic Foundation
                 </div>
-                <h4 className="text-xl font-bold text-white font-display mb-1">
-                  {edu.degree}
-                </h4>
-                <div className="text-sm font-semibold text-zinc-300 mb-2">
+
+                <h4 className="text-xl sm:text-2xl font-bold text-white font-display mb-1.5">
                   {edu.institution}
+                </h4>
+
+                <div className="text-sm sm:text-base font-semibold text-emerald-300 mb-3">
+                  {edu.degree}
                 </div>
-                <div className="text-xs font-mono text-zinc-500 mb-4">
-                  {edu.period}
+
+                <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white/5 border border-white/10 text-xs font-mono text-zinc-300 mb-5">
+                  <Calendar size={13} className="text-emerald-400" />
+                  <span className="text-zinc-400">Time:</span>
+                  <span className="text-white font-semibold">{edu.period}</span>
                 </div>
                 
-                <div className="space-y-2.5 text-xs sm:text-sm text-zinc-400">
+                <div className="space-y-2.5 text-xs sm:text-sm text-zinc-400 pt-4 border-t border-white/10">
                   {edu.highlights.map((item, i) => (
                     <div key={i} className="flex items-start gap-2">
                       <span className="text-emerald-400 mt-1">•</span>

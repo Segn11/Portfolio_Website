@@ -267,8 +267,8 @@ export const ACHIEVEMENTS: Achievement[] = [
 
 export const EDUCATION = [
   {
-    degree: "B.Sc. in Computer Science & Engineering",
-    institution: "Adama Science and Technology University (ASTU)",
+    degree: "BSc Degree in Computer Science and Engineering",
+    institution: "Adama Science and Technology University",
     period: "2023 — 2027",
     highlights: [
       "Concentrations in Advanced Algorithms, Machine Learning, Database Architecture, and Distributed Systems",

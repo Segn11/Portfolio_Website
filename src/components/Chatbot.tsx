@@ -104,11 +104,11 @@ You can explore live demos and source code links directly in the **Projects** se
 - **AI Research:** Developed indigenous character recognition models (CNNs) for Amharic / Ge'ez script digitization.`;
     }
 
-    if (p.includes('education') || p.includes('degree') || p.includes('university') || p.includes('school') || p.includes('background') || p.includes('astu')) {
-      return `### 🎓 Education & Background:
-- **Degree:** B.Sc. in Computer Science & Engineering
-- **University:** Adama Science and Technology University (ASTU)
-- **Period:** 2023 — 2027
+    if (p.includes('education') || p.includes('degree') || p.includes('university') || p.includes('school') || p.includes('background') || p.includes('astu') || p.includes('adama')) {
+      return `### 🎓 Education & Academic Foundation:
+- **University:** Adama Science and Technology University
+- **Degree:** BSc Degree in Computer Science and Engineering
+- **Time:** 2023 — 2027
 - **Focus:** Algorithms, Distributed Systems, Deep Learning, Database Design, and Software Engineering.
 - **Mindset:** Continuous learner passionate about bridging cutting-edge ML models with resilient web products.`;
     }
