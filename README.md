@@ -1,53 +1,84 @@
-# Segni Nadew Portfolio
+# Segni Nadew — Engineering & AI/ML Portfolio
 
-This is the source for Segni Nadew’s single-page professional portfolio. It highlights experience, skills, and projects while keeping the layout bold, modern, and focused on your developer and AI/ML work.
+A world-class, ultra-modern developer portfolio engineered for **Segni Nadew**, Full-Stack Software Engineer & Applied AI/Machine Learning Developer. Built with React 19, TypeScript, Tailwind CSS, Motion, and custom glassmorphism styling.
 
-## Highlights
+🌐 **Live Deployment:** [portfolio-segni.vercel.app](https://portfolio-segni.vercel.app/)  
+📫 **Direct Contact:** [segninadew1@gmail.com](mailto:segninadew1@gmail.com)  
+📍 **Location:** Addis Ababa, Ethiopia (Open to Remote Worldwide & Relocation)
 
-- **Hero-led experience** with motion-driven CTA buttons, gradient accents, and an animated portrait circle.
-- **Sectioned storytelling** for About, Skills, Projects, Achievements, and Contact.
-- **Downloadable CV** served through a bundled PDF asset so it works both locally and in production builds.
-- **Vite + React + Motion** stack for fast builds and smooth enter/exit transitions.
+---
 
-## Tech stack
+## ✨ Key Highlights & Features
 
-| Area | Tools |
-| --- | --- |
-| Bundler | Vite (TypeScript, React) |
-| Styling | Tailwind CSS + custom glassmorphism utilities |
-| Motion | [motion](https://motion.dev) for animations |
-| Icons | lucide-react |
+- **Hero Experience:**
+  - Dynamic rotating role typewriter ("Full-Stack Web Engineer", "AI & Deep Learning Developer", etc.).
+  - Direct 1-click email copy action for `segninadew1@gmail.com` with instant visual toast feedback.
+  - Interactive portrait avatar with rotating neon gradient border and floating tech badges (`React 19 & TS`, `BERT & CNNs`, `Node & Django`).
+  - Key metrics ribbon: 15+ Projects Completed, Top 15% Zindi Challenge Finish, 100% Type-Safe Architecture.
+  - In-browser Resume/CV preview modal and direct PDF download.
 
-## Local development
+- **Interactive Project Showcase:**
+  - Filterable tabs: `All`, `Full Stack`, `Machine Learning`, `NLP & Vision`.
+  - High-fidelity custom dashboard mockups for each featured project.
+  - Deep-dive **Architecture & Case Study Modal** detailing engineering challenges, metrics, and implementations.
+  - Featured projects include:
+    1. **WeDonate Civic Charity Portal** (React, Node.js, Express, PostgreSQL, Prisma, Gemini AI)
+    2. **Cryptocurrency Closing Price Predictor** (Python, Streamlit, Scikit-learn)
+    3. **Super Star Hopper: 3D Platformer Adventure** (Three.js, WebGL, Web Audio API, Electron)
+    4. **COVID-19 Tweet NLP Classification** (BERT, LightGBM, HuggingFace)
+    5. **AgriBORA Commodity Price Forecaster** (Zindi Rank 51/358)
+    6. **Amharic Character Classifier** (PyTorch, CNN, Computer Vision)
 
-1. **Install dependencies**
+- **Interactive Skills Matrix:**
+  - Real-time search filter and category tabs (Frontend, Backend, AI/ML, DevOps & Tools).
+  - Visual proficiency progress bars and core stack badges.
 
+- **Interactive AI Assistant (SegniBot):**
+  - Integrated floating AI assistant with pre-loaded quick questions and instant answers.
+  - Powered by a local conversational intelligence engine with fallback to live Google Gemini AI.
+
+- **Command Palette (`⌘K` / `Ctrl+K`):**
+  - Keyboard-accessible spotlight menu for rapid section navigation, email copy, and resume access.
+
+- **Interactive Contact & Connect:**
+  - Direct message composer with instant mailto generation.
+  - Quick access to GitHub, LinkedIn, and email.
+
+---
+
+## 🛠️ Tech Stack
+
+| Area | Technologies |
+| :--- | :--- |
+| **Framework & Core** | React 19, TypeScript, Vite |
+| **Styling & UI** | Tailwind CSS v4, Custom Glassmorphism & Aurora Gradients |
+| **Typography** | Plus Jakarta Sans, Space Grotesk, JetBrains Mono |
+| **Animations** | Motion (motion/react), CSS Mesh Gradients |
+| **Icons & Media** | Lucide React |
+| **AI Integration** | Google GenAI SDK, Local Conversational Engine |
+
+---
+
+## 🚀 Local Development
+
+1. **Install dependencies:**
    ```bash
    npm install
    ```
 
-2. **Start the dev server**
-
+2. **Run local dev server:**
    ```bash
    npm run dev
    ```
 
-3. Open the URL provided in the terminal to view the portfolio locally.
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
-## Building for production
+4. **Preview production build:**
+   ```bash
+   npm run preview
+   ```
 
-```bash
-npm run build
-```
-
-Serve the contents of `dist/` with any static hosting provider (Netlify, Vercel, GitHub Pages, etc.).
-
-## Assets
-
-- The downloadable CV bundles with the app from `src/PHOTO/CV (2).pdf` and is linked from the hero CTA.
-
-Feel free to fork, adapt, or build on this portfolio for your own personal brand.
-
-## deployement
- live web app -  https://portfolio-segni.vercel.app/
  
