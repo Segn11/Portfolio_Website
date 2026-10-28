@@ -4,7 +4,7 @@ A world-class, ultra-modern developer portfolio engineered for **Segni Nadew**, 
 
 🌐 **Live Deployment:** [segninadew.vercel.app](https://segninadew.vercel.app/))  
 📫 **Direct Contact:** [segninadew1@gmail.com](mailto:segninadew1@gmail.com)  
-📍 **Location:** Addis Ababa, Ethiopia (Open to Remote Worldwide & Relocation)
+📍 **Location:** Adama, Ethiopia (Open to Remote Worldwide & Relocation)
 
 ---
 
